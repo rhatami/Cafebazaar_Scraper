@@ -44,7 +44,7 @@ This script scrapes the Cafebazaar.ir application page for comments using Python
 
 # راهنمای استفاده از اسکریپت Cafebazaar Scraper
 
-این اسکریپت، صفحه اپلیکیشن در سایت Cafebazaar.ir را برای دیدگاه‌ها با استفاده از پایتون و Selenium استخراج می‌کند. ورودی این اسکریپت آدرس صفحه اپلیکیشن شما و خروجی آن یک فایل `.xlsx` حاوی دیدگاه‌ها می‌باشد.
+این اسکریپت با استفاده از پایتون و Selenium، نظرات یک اپلیکیشن را از سایت کافه بازار Cafebazaar.ir استخراج می‌کند. ورودی این اسکریپت آدرس صفحه اپلیکیشن شما و خروجی آن یک فایل اکسل حاوی نظرات می‌باشد.
 
 ## پیش‌نیازها
 
@@ -85,4 +85,4 @@ This script scrapes the Cafebazaar.ir application page for comments using Python
    python Cafebazaar_Scraper.py
    ```
 
-   صبر کنید تا اجرای اسکریپت به پایان برسد. این اسکریپت یک فایل خروجی با نام `comments.xlsx` حاوی دیدگاه‌های استخراج شده ایجاد خواهد کرد.
+   صبر کنید تا اجرای اسکریپت به پایان برسد. این اسکریپت یک فایل خروجی با نام `comments.xlsx` حاوی نظرات استخراج شده ایجاد خواهد کرد.
