@@ -43,6 +43,8 @@
 
    صبر کنید تا اجرای اسکریپت به پایان برسد. این اسکریپت یک فایل خروجی با نام `comments.xlsx` حاوی نظرات استخراج شده ایجاد خواهد کرد.
 
+   از این داده ها می توان برای تحلیل های مختلفی از جمله موارد مرتبط با پردازش زبان طبیعی یا NLP استفاده کرد که تعدادی از دیتاهای scrap شده برخی از نرم افزارها به صورت کامل در پوشه Scraped Data در دسترس قرار گرفته است.
+
 
 
 
@@ -86,3 +88,5 @@ This script scrapes the Cafebazaar.ir application page for comments using Python
    ```
 
    Wait until the script finishes execution. It will create an output file named `comments.xlsx` containing the scraped comments.
+
+   These data can be used for various analyses, including those related to Natural Language Processing (NLP). Several complete samples of scraped data from some applications are available in the "Scraped Data" folder.
