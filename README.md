@@ -37,4 +37,52 @@ This script scrapes the Cafebazaar.ir application page for comments using Python
    ```
 
    Wait until the script finishes execution. It will create an output file named `comments.xlsx` containing the scraped comments.
-   
+
+
+
+
+
+# راهنمای استفاده از اسکریپت Cafebazaar Scraper
+
+این اسکریپت، صفحه اپلیکیشن در سایت Cafebazaar.ir را برای دیدگاه‌ها با استفاده از پایتون و Selenium استخراج می‌کند. ورودی این اسکریپت آدرس صفحه اپلیکیشن شما و خروجی آن یک فایل `.xlsx` حاوی دیدگاه‌ها می‌باشد.
+
+## پیش‌نیازها
+
+1. **نصب Google Chrome:**
+   [دانلود Google Chrome](https://www.google.com/chrome/)
+
+2. **نصب ChromeDriver:**
+   [دانلود ChromeDriver](https://sites.google.com/chromium.org/driver/downloads)
+
+3. **نصب Python:**
+   [دانلود Python](https://www.python.org/downloads/)
+
+4. **نصب Pip:**
+   [راهنمای نصب Pip](https://pip.pypa.io/en/stable/installation/)
+
+## راه‌اندازی
+
+1. **نصب پکیج‌های مورد نیاز پایتون:**
+   ترمینال یا خط فرمان را باز کنید و دستورات زیر را برای نصب Selenium، BeautifulSoup4 و Pandas اجرا کنید:
+
+   ```sh
+   pip install selenium
+   pip install beautifulsoup4
+   pip install pandas
+   ```
+
+2. **ویرایش اسکریپت:**
+   فایل اسکریپت را باز کرده و مقدار متغیر `url` (در خط 10) را به آدرس صفحه اپلیکیشن خود در سایت Cafebazaar.ir تغییر دهید. پس از انجام این تغییر، فایل را ذخیره کنید.
+
+   ```python
+   url = 'https://cafebazaar.ir/app/com.farsitel.bazaar'  # این را به آدرس صفحه اپلیکیشن خود تغییر دهید
+   ```
+
+3. **اجرای اسکریپت:**
+   اسکریپت را با استفاده از پایتون با دستور زیر اجرا کنید:
+
+   ```sh
+   python Cafebazaar_Scraper.py
+   ```
+
+   صبر کنید تا اجرای اسکریپت به پایان برسد. این اسکریپت یک فایل خروجی با نام `comments.xlsx` حاوی دیدگاه‌های استخراج شده ایجاد خواهد کرد.
